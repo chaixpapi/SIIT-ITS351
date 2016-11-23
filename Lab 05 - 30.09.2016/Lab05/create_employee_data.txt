@@ -1,0 +1,12 @@
+﻿
+CREATE TABLE employee_data(
+	emp_id int unsigned not null auto_increment primary key,
+	f_name varchar(20),
+	l_name varchar(20),
+	title varchar(30),
+	age int,
+	yos int,
+	salary int,
+	perks int,
+	email varchar(60)
+);
